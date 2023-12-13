@@ -2,7 +2,11 @@
 // 2023-12-12
 
 fn main() {
-    let three = 3;
+    let _three = 3;
 
-    println!("{}", three);
+    println!("{}", value());
+}
+
+fn value() -> i32 {
+    3
 }
